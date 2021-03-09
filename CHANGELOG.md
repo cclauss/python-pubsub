@@ -5,6 +5,20 @@
 [1]: https://pypi.org/project/google-cloud-pubsub/#history
 
 
+### [2.4.1](https://www.github.com/googleapis/python-pubsub/compare/v2.4.0...v2.4.1) (2021-03-09)
+
+
+### Bug Fixes
+
+* **sample:** bump the max_time to 10 mins for a flaky test ([#311](https://www.github.com/googleapis/python-pubsub/issues/311)) ([e2678d4](https://www.github.com/googleapis/python-pubsub/commit/e2678d47c08e6b03782d2d744a4e630b933fdd51)), closes [#291](https://www.github.com/googleapis/python-pubsub/issues/291)
+* **sample:** mitigate flakiness in subscriber_test ([#304](https://www.github.com/googleapis/python-pubsub/issues/304)) ([271a385](https://www.github.com/googleapis/python-pubsub/commit/271a3856d835967f18f6becdae5ad53d585d0ccf))
+* SSL error when using the client with the emulator ([#297](https://www.github.com/googleapis/python-pubsub/issues/297)) ([83db672](https://www.github.com/googleapis/python-pubsub/commit/83db67239d3521457138699109f766d574a0a2c4))
+
+
+### Documentation
+
+* remove EXPERIMENTAL tag from Schema service (via synth) ([#307](https://www.github.com/googleapis/python-pubsub/issues/307)) ([ad85202](https://www.github.com/googleapis/python-pubsub/commit/ad852028836520db779c5cc33689ffd7e5458a7d))
+
 ## 2.4.0
 
 02-22-2021 05:02 PST
